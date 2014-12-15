@@ -20,3 +20,6 @@ _rbenv() {
 
   reply=("${(ps:\n:)completions}")
 }
+
+# Travis completion
+[ -f ~/.travis/travis.sh ] && source ~/.travis/travis.sh
