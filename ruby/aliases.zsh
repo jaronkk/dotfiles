@@ -6,4 +6,5 @@ alias sd='script/destroy'
 alias guard="bundle exec guard"
 alias rake="bundle exec rake"
 alias cap="bundle exec cap"
+alias migrate="rake db:migrate; rake db:migrate RAILS_ENV=test"
 # end rails
