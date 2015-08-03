@@ -34,3 +34,6 @@
     showOnStartup: false
   "release-notes":
     viewedVersion: "0.89.0"
+  "linter-rubocop":
+    configFileName: "config/style_guides/.ruby-style.yml"
+  react: {}
