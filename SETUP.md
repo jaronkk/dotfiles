@@ -25,6 +25,11 @@ In Preferences -> General, under "Preferences" check the box "Load preferences f
 
 Restart iTerm for the changes to take effect.
 
+### Adium config
+```sh
+cp ~/.dotfiles/Adium/Users/Default/* ~/Library/Application\ Support/Adium\ 2.0/Users/Default/
+```
+
 ## 3. Brew packages
 
 MySQL
