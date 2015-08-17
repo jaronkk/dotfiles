@@ -17,6 +17,7 @@ script/bootstrap
 ## 4. Apps
 
 * [iTerm](https://www.iterm2.com/downloads.html)
+* [SourceTree](https://www.sourcetreeapp.com/download/)
 * [Optimal Layout](https://itunes.apple.com/us/app/optimal-layout/id412627292?mt=12)
 * [Adium](https://adium.im/)
 
@@ -24,6 +25,9 @@ script/bootstrap
 In Preferences -> General, under "Preferences" check the box "Load preferences from a custom folder or URL" and point it to `~/.dotfiles/iTerm`.
 
 Restart iTerm for the changes to take effect.
+
+### SourceTree command line tools
+SourceTree menu bar -> SourceTree -> Install Command Line Tools
 
 ### Adium config
 ```sh
