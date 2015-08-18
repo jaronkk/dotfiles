@@ -14,7 +14,7 @@ cd ~/.dotfiles
 script/bootstrap
 ```
 
-## 4. Apps
+## 3. Apps
 
 * [iTerm](https://www.iterm2.com/downloads.html)
 * [SourceTree](https://www.sourcetreeapp.com/download/)
@@ -34,7 +34,7 @@ SourceTree menu bar -> SourceTree -> Install Command Line Tools
 cp ~/.dotfiles/Adium/Users/Default/* ~/Library/Application\ Support/Adium\ 2.0/Users/Default/
 ```
 
-## 3. Brew packages
+## 4. Brew packages
 
 MySQL
 ```sh
@@ -54,4 +54,23 @@ VIPS
 ```sh
 brew tap homebrew/science
 brew install vips7
+```
+
+## 5. SSHFS, OSXFUSE, Macfusion
+
+osxfuse & sshfs
+```sh
+brew install Caskroom/cask/osxfuse
+brew install Caskroom/cask/sshfs
+```
+
+[Macfusion](http://macfusionapp.org/)
+
+1. Install the app
+2. Update the app to point to the correct sshfs:
+
+```sh
+cd /Applications/Macfusion.app/Contents/PlugIns/sshfs.mfplugin/Contents/Resources
+mv sshfs-static sshfs-static.orig
+ln -s /usr/local/bin/sshfs sshfs-static
 ```
