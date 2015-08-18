@@ -53,5 +53,5 @@ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.rabbitmq.plist
 VIPS
 ```sh
 brew tap homebrew/science
-brew install vips
+brew install vips7
 ```
